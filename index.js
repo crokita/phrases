@@ -27,8 +27,4 @@ function getPhrasesDotOrgPhrases(callback){
   })
 }
 
-module.exports = Phrases 
-
-Phrases.getPhrases(function(results){
-  console.log(results)
-})
+module.exports = Phrases;
